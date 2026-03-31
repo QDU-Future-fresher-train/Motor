@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/GM6020_XRobotTWO/build/Debug/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/cmake/stm32cubemx/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Middlewares/Third_Party/LibXR/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Middlewares/Third_Party/LibXR/lib/Eigen/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen/CXX11/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Modules/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Modules/Motor/cmake_install.cmake",
+		"D:/GM6020_XRobotTWO/build/Debug/Modules/PositionAction/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
