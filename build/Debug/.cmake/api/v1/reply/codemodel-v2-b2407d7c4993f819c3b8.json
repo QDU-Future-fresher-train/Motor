@@ -1,0 +1,259 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "cmake/stm32cubemx",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-a874d3cc84b5982fda2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "Middlewares/Third_Party/LibXR",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Middlewares.Third_Party.LibXR-Debug-02049698336a2bd34616.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Middlewares/Third_Party/LibXR",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Middlewares/Third_Party/LibXR/lib/Eigen",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Middlewares.Third_Party.LibXR.lib.Eigen-Debug-c8bc2695b21f840951fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Middlewares/Third_Party/LibXR/lib/Eigen"
+				},
+				{
+					"build" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Middlewares.Third_Party.LibXR.lib.Eigen.unsupported-Debug-0c3292620427433c748b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported"
+				},
+				{
+					"build" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Middlewares.Third_Party.LibXR.lib.Eigen.unsupported.Eigen-Debug-4a9c9bbe205b2427598f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen"
+				},
+				{
+					"build" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen/CXX11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Middlewares.Third_Party.LibXR.lib.Eigen.unsupported.Eigen.CXX11-Debug-1ed2cd06242142f59d7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "Middlewares/Third_Party/LibXR/lib/Eigen/unsupported/Eigen/CXX11"
+				},
+				{
+					"build" : "Modules",
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"jsonFile" : "directory-Modules-Debug-e28d338f33e3f94bd6d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Modules"
+				},
+				{
+					"build" : "Modules/Motor",
+					"jsonFile" : "directory-Modules.Motor-Debug-c8abe90551d893d04201.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "Modules/Motor"
+				},
+				{
+					"build" : "Modules/PositionAction",
+					"jsonFile" : "directory-Modules.PositionAction-Debug-01808585e3643eca11dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 0,
+					"source" : "Modules/PositionAction"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						7,
+						8,
+						9
+					],
+					"name" : "GM6020_XRobotTWO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "Eigen3",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "FreeRTOS::@768a070a0fe75716b479",
+					"jsonFile" : "target-FreeRTOS-Debug-559c425accfc29f1b831.json",
+					"name" : "FreeRTOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GM6020_XRobotTWO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GM6020_XRobotTWO-Debug-67f53e5e5a9b5e93c227.json",
+					"name" : "GM6020_XRobotTWO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_Drivers-Debug-96756b5ac63ef5c60e59.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xr::@94172f4dc5a71953d109",
+					"jsonFile" : "target-xr-Debug-48553338c6da0397d848.json",
+					"name" : "xr",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/GM6020_XRobotTWO/build/Debug",
+		"source" : "D:/GM6020_XRobotTWO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
